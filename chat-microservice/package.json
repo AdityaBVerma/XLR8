@@ -1,0 +1,28 @@
+{
+  "dependencies": {
+    "@google/genai": "^1.48.0",
+    "@langchain/community": "^1.1.27",
+    "@langchain/core": "^1.1.38",
+    "@langchain/google-genai": "^2.1.26",
+    "axios": "^1.14.0",
+    "cors": "^2.8.6",
+    "dotenv": "^17.3.1",
+    "express": "^5.2.1",
+    "mongoose": "^9.3.3",
+    "pg": "^8.20.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.14"
+  },
+  "name": "chat-microservice",
+  "version": "1.0.0",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "nodemon -r dotenv/config --experimental-json-modules  src/index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": ""
+}
